@@ -1,0 +1,455 @@
+//https://gist.githubusercontent.com/mhakrook/b85b99f514b2984543a4945a53ec5756/raw/87d6eab0e72c442deecbdf39af78e3aa40093c28/flex%2520code 
+ 
+ 
+ 
+ var result1 = {
+        "platform": "line",
+        "type": 4,
+        "payload": {
+            "line": {
+                "type": "flex",
+                "altText": "this is a flex message",
+                "contents":
+
+                {
+                    "type": "carousel",
+                    "contents": [
+
+
+                            {
+                                "type": "bubble",
+                                "body": {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [{
+                                            "type": "text",
+                                            "size": "xl",
+                                            "text": "กล่อง1",
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "color": "#ff0000"
+                                        },
+
+                                        {
+                                            "type": "text",
+                                            "text": "1." + sheet.getRange(2, 2).getValue()
+                                        },
+
+                                        {
+                                            "type": "text",
+                                            "text": "2." + sheet.getRange(3, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "3." + sheet.getRange(4, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "4." + sheet.getRange(5, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "5." + sheet.getRange(6, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "6." + sheet.getRange(7, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "7." + sheet.getRange(8, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "8." + sheet.getRange(9, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "9." + sheet.getRange(10, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "10." + sheet.getRange(11, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "11." + sheet.getRange(12, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "12." + sheet.getRange(13, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "13." + sheet.getRange(14, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "14." + sheet.getRange(15, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "15." + sheet.getRange(16, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "16." + sheet.getRange(17, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "17." + sheet.getRange(18, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "18." + sheet.getRange(19, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "19." + sheet.getRange(20, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "20." + sheet.getRange(21, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "weight": "bold",
+                                            "text": "ตำแหน่งกล่อง"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "-->" + sheet.getRange(22, 2).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "weight": "bold",
+                                            "text": "รายละเอียด"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "-->" + sheet.getRange(23, 2).getValue()
+                                        }
+                                    ]
+                                },
+
+                                "footer": {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                        "type": "button",
+                                        "action": {
+                                            "type": "uri",
+                                            "label": "รูปภาพ",
+                                            "uri": Data_P1
+                                        },
+                                        "color": "#CD1B1B",
+                                        "style": "primary"
+                                    }]
+                                }
+
+                            } //end1
+                            ,
+                            {
+                                "type": "bubble",
+                                "body": {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [{
+                                            "type": "text",
+                                            "size": "xl",
+                                            "text": "กล่อง2",
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "color": "#ff0000"
+                                        },
+
+                                        {
+                                            "type": "text",
+                                            "text": "1." + sheet.getRange(2, 3).getValue()
+                                        },
+
+                                        {
+                                            "type": "text",
+                                            "text": "2." + sheet.getRange(3, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "3." + sheet.getRange(4, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "4." + sheet.getRange(5, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "5." + sheet.getRange(6, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "6." + sheet.getRange(7, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "7." + sheet.getRange(8, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "8." + sheet.getRange(9, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "9." + sheet.getRange(10, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "10." + sheet.getRange(11, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "11." + sheet.getRange(12, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "12." + sheet.getRange(13, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "13." + sheet.getRange(14, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "14." + sheet.getRange(15, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "15." + sheet.getRange(16, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "16." + sheet.getRange(17, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "17." + sheet.getRange(18, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "18." + sheet.getRange(19, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "19." + sheet.getRange(20, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "20." + sheet.getRange(21, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "weight": "bold",
+                                            "text": "ตำแหน่งกล่อง"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "-->" + sheet.getRange(22, 3).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "weight": "bold",
+                                            "text": "รายละเอียด"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "-->" + sheet.getRange(23, 3).getValue()
+                                        }
+                                    ]
+                                },
+
+                                "footer": {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                        "type": "button",
+                                        "action": {
+                                            "type": "uri",
+                                            "label": "รูปภาพ",
+                                            "uri": Data_P2
+                                        },
+                                        "color": "#CD1B1B",
+                                        "style": "primary"
+                                    }]
+                                }
+
+                            } //end2
+                            ,
+                            {
+                                "type": "bubble",
+                                "body": {
+                                    "type": "box",
+                                    "layout": "vertical",
+                                    "contents": [{
+                                            "type": "text",
+                                            "size": "xl",
+                                            "text": "กล่อง3",
+                                            "weight": "bold",
+                                            "align": "center",
+                                            "color": "#ff0000"
+                                        },
+
+                                        {
+                                            "type": "text",
+                                            "text": "1." + sheet.getRange(2, 4).getValue()
+                                        },
+
+                                        {
+                                            "type": "text",
+                                            "text": "2." + sheet.getRange(3, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "3." + sheet.getRange(4, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "4." + sheet.getRange(5, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "5." + sheet.getRange(6, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "6." + sheet.getRange(7, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "7." + sheet.getRange(8, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "8." + sheet.getRange(9, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "9." + sheet.getRange(10, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "10." + sheet.getRange(11, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "11." + sheet.getRange(12, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "12." + sheet.getRange(13, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "13." + sheet.getRange(14, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "14." + sheet.getRange(15, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "15." + sheet.getRange(16, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "16." + sheet.getRange(17, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "17." + sheet.getRange(18, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "18." + sheet.getRange(19, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "19." + sheet.getRange(20, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "20." + sheet.getRange(21, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "weight": "bold",
+                                            "text": "ตำแหน่งกล่อง"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "-->" + sheet.getRange(22, 4).getValue()
+                                        },
+                                        {
+                                            "type": "text",
+                                            "weight": "bold",
+                                            "text": "รายละเอียด"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": "-->" + sheet.getRange(23, 4).getValue()
+                                        }
+                                    ]
+                                },
+
+                                "footer": {
+                                    "type": "box",
+                                    "layout": "horizontal",
+                                    "contents": [{
+                                        "type": "button",
+                                        "action": {
+                                            "type": "uri",
+                                            "label": "รูปภาพ",
+                                            "uri": Data_P3
+                                        },
+                                        "color": "#CD1B1B",
+                                        "style": "primary"
+                                    }]
+                                }
+
+                            } //end3
+
+                            //----------------
+                        ] //co
+                } //co
+
+
+
+            }
+        }
+    }
+    var result2 = {
+        "platform": "line",
+        "type": 4,
+        "payload": {
+            "line": {
+                "type": "flex",
+                "altText": "this is a flex message",
+                "contents": {
+                    "type": "bubble",
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [{
+                            "type": "text",
+                            "text": "ดีจ้า!!",
+                            "weight": "bold",
+                            "align": "center",
+                            "color": "#ff0000"
+                        }]
+                    }
+                }
+            }
+        }
+    }
+    var results = {
+        "fulfillmentMessages": [
+            result1, result2
+        ]
+    }
